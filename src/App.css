@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(24, 24, 24);
+}
+
+.loading-message,
+.error-message,
+.no-results-message {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.error-message {
+  color: #ff6b6b;
+}
+
+.loading-message {
+  color: #61dafb;
+}
+
+.no-results-message {
+  color: #bbb;
+}
+
+.app-container {
+  background: rgb(24, 24, 24);
+  color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.app-top input {
+  background: rgb(37, 201, 160);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app-top ul {
+  display: flex;
+  width: 100%;
+}
